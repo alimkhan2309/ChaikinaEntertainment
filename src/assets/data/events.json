@@ -1,0 +1,209 @@
+{
+  "events": [
+    {
+      "id": 1,
+      "name": "53 Restaurant Dinner Show",
+      "location": "Dubai",
+      "image": "53restaurant.jpg",
+      "brief": [
+        "Anastasiia Chaikina was invited to the 53 restaurant with a ready-made show to completely redo everything for the official opening.",
+        "The client’s request was to build a dinner show with a script uniting all the acts and linked to multiple screens in the venue."
+      ],
+      "difficulties": [
+        "The restaurant owners wanted to see a completely different, non-repetitive show every day of the week, which increased the workload of the dancers.",
+        "The budget for costumes and props was very tight."
+      ],
+      "result": {
+        "type": "text",
+        "items": [
+          "Musical shows based on the films “Beauty and the Beast”, “The Addams Family”, and “Superheroes” were built.",
+          "The venue was nominated in the top 10 of the best dinner shows in Dubai by What’s On."
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "name": "Formula 1",
+      "location": "Abu Dhabi",
+      "image": "formula1.jpg",
+      "brief": [
+        "Create a show on a boat, a Racer’s after-party, and the penthouse of the Sheikh of Abu Dhabi."
+      ],
+      "difficulties": [
+        "The hostesses were tasked with asking rich and famous people at the entrance of the party to put stickers on their phone cameras, which was not always easy to do."
+      ],
+      "result": {
+        "type": "text",
+        "items": [
+          "Chaikina Entertainment has provided hostesses, acrobats, and dancers for 4 years in a row and has received excellent feedback."
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "name": "The Castle",
+      "location": "Chateau de Blet",
+      "image": "castle.jpg",
+      "brief": [
+        "To create a show dedicated to the exhibition of retro cars in an ancient chateau in France."
+      ],
+      "difficulties": [
+        "The castle was located far away from settlements, and the artists had to make a long journey to get there.",
+        "The event was held outside, and the aerial acrobat had to hang their prop from a tree.",
+        "A buffet was organized in the castle, and the guests were slow to get down to the stage where the show was scheduled to take place.",
+        "It started to rain on the day of the event."
+      ],
+      "result": {
+        "type": "text",
+        "items": [
+          "To motivate artists to travel across France to perform, Anastasiia Chaikina provided a professional photo shoot along the way with a lavender field and a professional photographer.",
+          "The acrobat got the opportunity to get a unique promo against the backdrop of a great castle.",
+          "To attract the attention of the guests and start the show on time, the performers were sent in waiter’s uniforms to the buffet area and started dancing there.",
+          "To beat the unpredictable rain, the dancers washed retro cars while dancing, making a real show out of it.",
+          "The event was so successful that Anastasiia Chaikina was invited to host Halloween at the Castle."
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "name": "88 Terrace",
+      "location": "Bluewaters Dubai",
+      "image": "88terrace.jpg",
+      "brief": [
+        "Make an entertainment plan and provide performers for the 3-day party: Arabic, Iranian, and Russian nights."
+      ],
+      "difficulties": [
+        "The venue was under the open air; due to sudden rain, the dancers had to perform with umbrellas to prevent the guests from leaving the venue.",
+        "On Arabic night, the music equipment stopped working an hour before the event. Anastasiia Chaikina brought a team of sound engineers who promptly loaned the necessary mixer and speakers and connected everything together on time."
+      ],
+      "result": {
+        "type": "text",
+        "items": [
+          "The client has become a regular customer of Chaikina Entertainment."
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "name": "Address Grand Creek Harbour",
+      "location": "14th of February",
+      "image": "addressgrand.jpg",
+      "brief": [
+        "To provide family entertainment for Valentine’s Day and decorate 2 restaurants for a celebratory dinner party."
+      ],
+      "difficulties": [
+        "Rehearsal and shooting of the decorations took place in good weather conditions, but on the 14th of February, the wind picked up, and the vases did not stop shattering."
+      ],
+      "result": {
+        "type": "text",
+        "items": [
+          "Instead of vases with bouquets, the tables were decorated with rose petals, which created a romantic atmosphere.",
+          "Live music left no one indifferent."
+        ]
+      }
+    },
+    {
+      "id": 6,
+      "name": "Dubai Opera",
+      "location": "Umm Kulthum Hologram Show",
+      "image": "dubaiopera.jpg",
+      "brief": [
+        "Propose ideas and organize a show dedicated to a classical music concert, provide photographers and videographers, and organize decorations, transport, and catering for performers."
+      ],
+      "difficulties": [
+        "The show involved a big team of artists to organize.",
+        "It took less than 24 hours to set up the decorations and props before the event.",
+        "Thousands of candles were placed on the way from the Opera entrance to the stage.",
+        "The whole show was dedicated to the past, and conservative outfits for the performers were requested.",
+        "One of the videographers came to the shoot in a formal suit but with a purple punk hairstyle. Anastasiia Chaikina created a hat for him to cover the problem."
+      ],
+      "result": {
+        "type": "text",
+        "items": [
+          "There was a lot of positive feedback from the customer and event guests."
+        ]
+      }
+    },
+    {
+      "id": 7,
+      "name": "Omni Dinner Show",
+      "location": "Dubai",
+      "image": "omni.jpg",
+      "brief": [
+        "To prepare two different shows per week and change them every month, involving acrobats, singers, and dancers. The main request of the customer was to get the guests to actively post stories on Instagram."
+      ],
+      "difficulties": [
+        "Khaleeji Club has a special atmosphere. It was important not to be at odds with the mood of the public.",
+        "The stage was located far from the dressing room, and to reach it, the performers had to cross the crowd of guests.",
+        "In one of the shows, the idea was to create a flying singer in a huge skirt 4 meters off the floor. A few singers refused to work because of fear of heights."
+      ],
+      "result": {
+        "type": "text",
+        "items": [
+          "Futureland",
+          "Desert Camp",
+          "The Freaks",
+          "One Night in Vegas",
+          "Around the World",
+          "4 Elements"
+        ]
+      }
+    },
+    {
+      "id": 8,
+      "name": "Dubai Fashion Show",
+      "location": "Dubai",
+      "image": "fashion.jpg",
+      "brief": [
+        "Create an original fashion defile to present the designer’s new collection."
+      ],
+      "difficulties": [
+        "The artists had to dance and perform acrobatic tricks in wedding and evening outfits, not designed for active movements."
+      ],
+      "result": {
+        "type": "text",
+        "items": [
+          "The designer’s defile became the most discussed during the Dubai Fashion Show and was published in media."
+        ]
+      }
+    },
+    {
+      "id": 9,
+      "name": "Seychelles, Private Theater",
+      "location": "Seychelles",
+      "image": "seychelles.jpg",
+      "brief": [
+        "Prepare shows once a week with different concepts for VIP guests, bringing new artists from abroad for every evening."
+      ],
+      "difficulties": [
+        "The theater prohibits photos and videos, so convincing artists that the proposal was real and safe was challenging.",
+        "Artists typically arrive on the island the day before, leaving only a few hours to finalize the show with all performers."
+      ],
+      "result": {
+        "type": "text",
+        "items": [
+          "Anastasiia consistently brings unique acts and musicians to Seychelles, ensuring the Chaikina Entertainment talent base is regularly replenished."
+        ]
+      }
+    },
+    {
+      "id": 10,
+      "name": "Hologram Show",
+      "location": "La Perle",
+      "image": "hologram.jpg",
+      "brief": [
+        "To create a 90 minutes Dance show for the biggest stage of Dubai - La Perle, Al Habtoor City, and manage a team to perform twice a week."
+      ],
+      "difficulties": [
+        "Each artist selected after the casting by Anastasiia Chaikina had to pass the swimming test, as there is a deep pool in the center of the stage.",
+        "The eight-hour rehearsals took place from 6 a.m., which was a challenge as most of the dancers worked night shifts.",
+        "Each performer had to run well, as the stadium-sized stage has different exits, making quick movement essential.",
+        "After the general run-through, most of the acrobatic elements and couple interactions had to be removed from the choreography due to government comments." 
+      ],
+      "result": {
+        "type": "img",
+        "items": ["imgUrl"]
+      }
+    }
+  ]
+}

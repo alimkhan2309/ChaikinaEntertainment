@@ -1,0 +1,29 @@
+// src/assets/styles/style.scss
+@import './_variables';
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: $font-family;
+}
+
+section {
+    height: 100vh;
+}
+
+h1{font-size: $h1;}
+h2{font-size: $h2;}
+h3{font-size: $h3;}
+h4{font-size: $h4;}
+h5{font-size: $h5;}
+p{font-size: $body;}
+
+.flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
