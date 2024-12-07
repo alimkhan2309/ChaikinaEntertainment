@@ -54,8 +54,9 @@ export default {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0.5rem 1rem;
+  // padding: 0.5rem 1rem;
   font-family: 'Libre Baskerville', serif;
+  z-index: 1000;
 
   .logo {
     font-size: 1.5rem;

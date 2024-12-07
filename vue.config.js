@@ -1,4 +1,5 @@
 module.exports = {
+  publicPath: '/ChaikinaEntertainment/',
   transpileDependencies: [],
   css: {
     loaderOptions: {

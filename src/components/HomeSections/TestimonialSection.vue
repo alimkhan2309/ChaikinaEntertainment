@@ -44,7 +44,7 @@ export default {
 <style scoped lang="scss">
 .testimonial {
     height: fit-content; 
-    padding: $vertical-padding 0;
+    padding: $vertical-padding 0px;
     width:100%;
     background-color:$black;
     flex-direction: column;

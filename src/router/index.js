@@ -24,7 +24,14 @@ const routes = [
 
 const router = createRouter({
   history: createWebHistory(process.env.BASE_URL),
-  routes
+  routes,
+  scrollBehavior(to, from, savedPosition) {
+        if (savedPosition) {
+            return savedPosition; // For back/forward navigation
+        } else {
+            return { x: 0, y: 0 }; // Scroll to the top for new routes
+        }
+    }
 })
 
 export default router

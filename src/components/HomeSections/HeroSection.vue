@@ -3,13 +3,15 @@
   <div class="txt-wrap">
       <h1>CHAIKINA ENTERTAINMENT</h1>
       <h2>PERSONALIZED SHOW PRODUCTION GLOBAL TALENT RECRUITMENT</h2>
+      <Button></Button>
     </div>
   </section>
 </template>
 
 <script>
+import Button from '../Button.vue';
 export default {
-
+  components: {Button}
 }
 </script>
 
@@ -52,7 +54,7 @@ export default {
   // Responsive <3
   @media (max-width: 1200px) {
 
-    background-image: url('@/assets/images/hero-mid.jpg');
+    background-image: url('@/assets/images/hero-small.jpg');
     
     .txt-wrap h1 {
       font-size: 65px;

@@ -31,14 +31,15 @@ export default {
 <style scoped lang="scss">
 .team-section {
     height:fit-content;
-    width:100vw;
+    padding-bottom:10rem;
+    width:100%; 
     flex-direction: column;
     background-color:$black;
     flex-direction: column;
     color:$white;
 
     h1 {
-        padding:32px 24px;
+        padding:8rem 24px;
     }
 
     .team-link {

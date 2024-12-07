@@ -1,12 +1,13 @@
 <template>
   <div class="card">
     <div class="img-wrapper">
-        <!-- <img src="@/assets/images/hero.jpg" alt="Event image"> -->
         <img :src="imgUrl" alt="Event image">
     </div>
     <div class="card-content">
-        <div class="tag"><p>{{ location }}</p></div>
-        <h5>{{ title }}</h5>
+        <div class="card-header">
+            <h5>{{ title }}</h5>
+            <div class="tag"><p>{{ location }}</p></div>
+        </div>
         <ul>
             <li v-for="(d,i) in description" :key="i">{{ d }}</li>
         </ul>
@@ -24,12 +25,12 @@ export default {
 
 <style scoped lang="scss">
 .card {
-    flex-basis: 30%;
+    display: flex;
+    // flex-basis: 30%;
     max-width:482px;
     height:100%;
     background-color: $dark;
     border-radius: 22px;
-    display: flex;
     flex-direction: column;
     flex-grow:1;
     
@@ -58,17 +59,25 @@ export default {
         flex-direction: column;
         gap:32px;
         flex-grow:1;
-        .tag {
-            color: $yellow;
-            font-size:10px;
-            width:fit-content;
-            padding:16px 32px;
-            border-radius: 23px;
-            border: solid 1px $yellow;
-            p {font-size:13px; }
+
+        .card-header {
+            display:flex;
+            justify-content: space-between;
+            align-items:start;
+            .tag {
+                color: $yellow;
+                font-size:10px;
+                width:fit-content;
+                height: fit-content;
+                margin-top:16px;
+                padding:8px 32px;
+                border-radius: 23px;
+                border: solid 1px $yellow;
+                p {font-size:13px; }
+            }
+            
+            h5{padding:8px 0;}
         }
-        
-        h5{padding:8px 0;}
 
         p {
             font-size:16px;
@@ -84,23 +93,17 @@ export default {
 }
 @media (max-width: 800px) {
     .card {
-        width:65vw;
-    }
-}
-
-@media (max-width: 500px) {
-    .card {
-        width:275px;
+        width:392px;
 
         .card-content {
-            padding:32px;
+            padding:24px 16px 4px 16px;
             display: flex;
             flex-direction: column;
             gap:32px;
             
         .tag {
-            padding:4px 7px;
-            p {font-size:6px; }
+            padding:4px 12px;
+            p {font-size:12px; }
         }
         
         h5{
@@ -112,6 +115,13 @@ export default {
         }
         
     }
+    }
+}
+
+@media (max-width: 500px) {
+    .card {
+        width: 21.5625rem;
+        width: clamp(21.5625rem, -4.5000000000000036rem + 111.20000000000002vw, 30.25rem);
     }
 }
 
