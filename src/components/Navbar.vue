@@ -7,7 +7,9 @@
       <router-link to="/services">Services</router-link>
       <router-link to="/contact">Contact</router-link>
     </div>
-    <button class="action-btn" v-if="!isMenuOpen">Action</button>
+    <!-- <button class="action-btn" v-if="!isMenuOpen">Action</button> -->
+    <Button text="Contact Us" ButtonStyle="primary-small"></Button>
+    <Button text="eat shit" style="primary-small"/>
     <button class="burger-btn" @click="toggleMenu">&#9776;</button>
 
     <!-- Side menu -->
@@ -27,7 +29,10 @@
 
 
 <script>
+import Button from './Button.vue';
+
 export default {
+  components: {Button},
   data() {
     return {
       isMenuOpen: false, // Tracks whether the side menu is open or closed

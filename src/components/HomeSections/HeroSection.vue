@@ -3,7 +3,7 @@
   <div class="txt-wrap">
       <h1>CHAIKINA ENTERTAINMENT</h1>
       <h2>PERSONALIZED SHOW PRODUCTION GLOBAL TALENT RECRUITMENT</h2>
-      <Button></Button>
+      <Button text="Create Your Dream Event" ></Button>
     </div>
   </section>
 </template>
@@ -48,6 +48,10 @@ export default {
       color: $grey;
       padding-top: 2rem;
       width:fit-content;
+    }
+
+    Button {
+      margin-top:96px;
     }
   }
 

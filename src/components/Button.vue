@@ -1,13 +1,27 @@
 <template>
-  <div class="btn flex-container">
-    <h5>Create Your Dream Event</h5>
-  </div>
+  <button :class="styleClass" class="btn">
+    {{ text }}
+  </button>
 </template>
 
 <script>
 export default {
-
-}
+  props: {
+    text: {
+      type: String,
+      required: true,
+    },
+    style: {
+      type: String,
+      default: "primary", // Default style class
+    },
+  },
+  computed: {
+    styleClass() {
+      return `btn-${this.style}`; // Dynamically bind style class
+    },
+  },
+};
 </script>
 
 <style scoped lang="scss">
@@ -16,18 +30,16 @@ export default {
         align-items: center;
         justify-content: center;
         padding: 16px 64px;
-        color:$yellow;
-        border: solid 1px $yellow;
         border-radius: 64px;
-        margin-top:96px;
+        font-size: 16px;
+        padding: 15px 20px;
+        background:none;
     }
 
     @media(max-width:800px) {
         .btn {
             padding:16px 32px;
-            h5 {
-                font-size:20px;
-            }
+            font-size:20px;
         }
     }
 
@@ -36,4 +48,21 @@ export default {
             padding:16px 26px;
         }
     }
+
+    .btn-primary {
+  color: $yellow;
+  border: solid 1px $yellow;
+}
+
+.btn-secondary {
+  background-color: gray;
+  color: white;
+}
+
+.btn-primary-small {
+  padding: 10px 32px;
+}
+
+
+    
 </style>
